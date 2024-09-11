@@ -1,0 +1,44 @@
+{
+  "name": "strapi-provider-upload-tos",
+  "version": "1.0.0",
+  "description": "Volcengine TSS provider for strapi upload",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "upload",
+    "volcengine",
+    "tos",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "@volcengine/tos-sdk": "^2.7.3"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "xxxxiaowen@icloud.com",
+    "name": "limuby"
+  },
+  "maintainers": [
+    {
+      "email": "xxxxiaowen@icloud.com",
+      "name": "limuby"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zwsn/strapi-provider-upload-tos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zwsn/strapi-provider-upload-tos/issues"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "license": "MIT"
+}
